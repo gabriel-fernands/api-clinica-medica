@@ -1,11 +1,10 @@
-package med.voll.api.domain.dtosMedico;
+package med.voll.api.dtosMedico;
 
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Pattern;
-import med.voll.api.domain.endereco.DadosEndereco;
 import med.voll.api.enus.Especialidade;
 
 public record DadosCadastroMedico(

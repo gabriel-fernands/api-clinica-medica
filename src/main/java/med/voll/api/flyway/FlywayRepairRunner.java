@@ -1,4 +1,4 @@
-package med.voll.api.flaway;
+package med.voll.api.flyway;
 
 import org.flywaydb.core.Flyway;
 import org.springframework.boot.CommandLineRunner;
